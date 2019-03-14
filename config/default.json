@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey":""
-}
+    "jwtPrivateKey": "",
+    "db": "mongodb+srv://rohitkolapkar:rohitkolapkar@cluster0-aifzw.mongodb.net/test?retryWrites=true"
+  }
