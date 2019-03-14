@@ -3,6 +3,8 @@ const winston=require('winston');
 const express=require('express');
 const app=express();
 
+app.set('view engine', 'ejs');
+
 require('./startup/logging')();
 require('./startup/routes')(app);
 require('./startup/db')();
