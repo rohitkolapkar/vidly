@@ -1,4 +1,7 @@
 {
-    "jwtPrivateKey": "",
-    "db": "mongodb://localhost/vidly"
+    "jwtPrivateKey": "1234",
+    "db":"mongodb+srv://rohitkolapkar:rohitkolapkar@cluster0.aifzw.mongodb.net/vidly?retryWrites=true&w=majority"
+    
   }
+
+  

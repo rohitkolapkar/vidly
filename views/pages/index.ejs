@@ -2,26 +2,29 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <% include ../partials/head %>
 </head>
+
 <body class="container">
+    <!--two headers are available 1. herokuapp 2. localhost -->
+    <header>
+        <% include ../partials/header_localhost %>
+    </header>
 
-<header>
-    <% include ../partials/header %>
-</header>
+    <main>
+        <div class="jumbotron">
+            <h1>Vidly Video Rental App</h1>
+            <p>using MEAN Stack</p>
 
-<main>
-    <div class="jumbotron">
-        <h1>Vidly Video Rental App</h1>
-        <p>using MEAN Stack</p>
-        
-    </div>
-</main>
+        </div>
+    </main>
 
-<footer>
-    <% include ../partials/footer %>
-</footer>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
 
 </body>
+
 </html>
